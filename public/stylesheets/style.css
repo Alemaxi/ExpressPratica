@@ -1,0 +1,45 @@
+a {
+  color: #00B7FF;
+}
+
+.navbar {
+  background-color: palevioletred;
+}
+
+.banner {
+  background-image: url("../images/Banner.jpg");
+  background-color: blue;
+  background-size: cover;
+  height: 29vw;
+}
+
+.nav-item {
+  text-align: center;
+  width: 33vw;
+}
+
+.footer {
+  background-color: palevioletred;
+}
+
+.imgproduct {
+  width: 20vw;
+  height: 20vw;
+}
+
+.quadrado {
+  background-color: black;
+}
+
+.centered-text {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.marginbottom {
+  margin-bottom: 25px;
+}
+
+.sticky-top {
+  position: sticky;
+}

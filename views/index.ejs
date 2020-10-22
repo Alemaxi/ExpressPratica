@@ -1,0 +1,26 @@
+<%- include('./partials/head') %>
+<%- include('./partials/header') %>
+
+<br>
+
+<div class="container d-flex flex-column">
+  <div class='row '>
+    <% for( let x=0; x<=(produtos.length-1) ;x++ ) { %>
+    <div class="container-fluid col-6 col-md-4 marginbottom d-flex d-flex flex-column flex-wrap align-content-center">
+      <img src=<%=produtos[x].path%> class="imgproduct" alt="">
+      <div class="centered-text">
+        <h6><%= produtos[x].name %></h6>
+      </div>
+      <a class="btn btn-danger" href="#">comprar</a>
+    </div>
+<% } %>
+  </div>
+
+</div>
+
+<br><br>
+
+<%- include('./partials/footer')%>
+</body>
+
+</html>
