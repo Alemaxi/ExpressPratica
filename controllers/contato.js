@@ -1,6 +1,8 @@
+const listaContato = require('../Model/contato')
+
 function contatoPost(req,res,next){
-    console.log(req.body)
-    res.send(req.body);
+    listaContato.addContato(req.body);
+    res.send(listaContato.getContatos());
 }
 
 function contatoGet(req,res) {

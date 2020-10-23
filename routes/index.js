@@ -7,8 +7,4 @@ const indexController = require('../controllers/index')
 /* GET home page. */
 router.get('/', indexController);
 
-router.post('/test', (req,res) =>{
-    res.send(req.body)
-} )
-
 module.exports = router;

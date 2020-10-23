@@ -1,13 +1,4 @@
-let lista = [
-    {path:'images/cupcake.jpg',name:'Cupcake'},
-    {path:'images/cupcake.jpg',name:'Cupcake'},
-    {path:'images/cupcake.jpg',name:'Cupcake'},
-    {path:'images/cupcake.jpg',name:'Cupcake'},
-    {path:'images/cupcake.jpg',name:'Cupcake'},
-    {path:'images/cupcake.jpg',name:'Cupcake'},
-    {path:'images/cupcake.jpg',name:'Cupcake'},
-    {path:'images/cupcake.jpg',name:'Cupcake'}
-];
+const lista = require('../Model/produtos')
 
 const retornaProdutos = (req,res) => {
     res.render('index', {produtos:lista,title:'Elisa\'s'})
