@@ -1,0 +1,26 @@
+<%- include('./partials/head') %>
+<%- include('./partials/header') %>
+
+
+<br>
+
+<div class="container">
+    <h1>Contato</h1><br><br>
+    <div>
+        <form action="contato/add" method="POST">
+            <div class="form-group">
+                <label for="fname">Email</label><br>
+                <input type="email" class="form-control" id="fname" name="email"><br>
+            </div>
+            <div>
+                <label for="lname">Senha</label><br>
+                <input type="password" class="form-control" id="lname" name="pwd"><br><br>
+            </div>
+            <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<br>
+
+<%- include('./partials/footer') %>
